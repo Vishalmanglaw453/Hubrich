@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
+import "./app.css";
+import Hero from "./components/Hero";
+import Fault from "./components/Fault";
+import Consultation from "./components/Consultation";
+import Get from "./components/Get";
+import Section5 from "./components/Section5";
+import Section6 from "./components/Section6";
+import Strategy from "./components/Strategy";
+import Behind from "./components/Behind";
+import Footer from "./components/Footer";
+import Target from "./components/Target";
+import Mindset from "./components/Mindset";
+import Clients from "./components/Clients";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Hero />
+      <Fault/>
+      <Consultation/>
+      <Get/>
+      <Target/>
+      <Mindset/>
+      <Section5/>
+      <Section6/>
+      <Clients/>
+      <Strategy/>
+      <Behind/>
+      <Footer/>
     </div>
   );
 }
