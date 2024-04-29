@@ -1,7 +1,8 @@
 import React from "react";
+import "./app.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-import "./app.css";
+
 import Hero from "./components/Hero";
 import Fault from "./components/Fault";
 import Consultation from "./components/Consultation";
